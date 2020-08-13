@@ -1,0 +1,126 @@
+/* untuk global pada html */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    color: #350f8f;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #042727;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+
+p {
+    line-height: 1;
+  }
+  
+a {
+    text-decoration: none;
+  }
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-image: linear-gradient(rgb(180, 75, 75), yellowgreen);
+}
+
+/* untuk header */
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(97, 216, 224);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.img-profile {
+    width: 124px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: blueviolet;
+    transition: all 0.5s;
+}
+
+.header-right a {
+    line-height: 70px;
+    padding: 0 25px;
+    color: whitesmoke;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-right:hover {
+    background-color: red;
+}
+
+.header-right a:hover {
+    color: yellowgreen;
+}
+
+/* untuk top-main */
+.top-main {
+    margin: 100px 0;
+}
+
+.profile-intro {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* middle-main */
+
+.middle-main {
+    margin: 100px 0;
+}
+
+.skill-left {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+
+.skill-right {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.skill-right-math {
+    width: 25%;
+    height: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
