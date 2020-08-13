@@ -1,0 +1,3 @@
+# personal-web
+ini project menggunakan html dan css =, kita bikin personal web..
+tugas hari ke 2 di impact byte.. seru banget...
